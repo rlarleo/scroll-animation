@@ -1,0 +1,22 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "files.eol": "\n"
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "files.eol": "\n"
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "files.eol": "\n"
+  },
+  "cSpell.words": [
+    "craco"
+  ]
+}

@@ -19,6 +19,7 @@
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.9",
     "craco-alias": "^3.0.1",
+    "gh-pages": "^6.1.1",
     "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-beautiful-dnd": "^13.1.1",
@@ -32,7 +33,9 @@
     "start": "craco start",
     "build": "craco build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -69,5 +72,6 @@
     "eslint-plugin-react-hooks": "^4.3.0",
     "prettier": "^2.5.1",
     "typescript": "^4.9.3"
-  }
+  },
+  "homepage": "https://rlarleo.github.io/scroll-animation/"
 }
